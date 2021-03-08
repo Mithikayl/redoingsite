@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabin/v18/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EL7E.ttf) format('truetype');
+}
+body .bg {
+  background-color: #05386B;
+}
+h1 .intro {
+  font-family: Cabin;
+  color: #5CDB95;
+  font-size: 10vh;
+}
