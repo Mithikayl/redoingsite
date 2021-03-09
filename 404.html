@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Title</title>
+    <title>mith's website</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/dist/main.css">
+    <meta name="description" content="a guy who enjoys coding and a good fanta.">
+    <meta name="keywords" content="mith,developer,designer,ui,javascript,nodejs,html,css,mithikayl,mythicalgamer369">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mithikayl.netlify.app">
+    <meta property="og:title" content="mith's website">
+    <meta property="og:description" content="a guy who enjoys coding and a good fanta.">
+    <meta property="og:image" content="">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mithikayl.netlify.app">
+    <meta property="twitter:title" content="mith's website">
+    <meta property="twitter:description" content="a guy who enjoys coding and a good fanta.">
+    <meta property="twitter:image" content="">  
 </head>
-<body>
+<body onload="typeWriter()">
+    <p id="demo"></p>
     
+    <script>
+    var i = 0;
+    var txt = '404 PAGE NOT FOUND.';
+    var speed = 100;
+    
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    </script>
+    </span>
 </body>
 </html>
