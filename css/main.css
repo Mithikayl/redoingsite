@@ -1,6 +1,6 @@
 @font-face {
   font-family: Circular;
-  src: url(../../fonts/CircularStd-Bold.otf);
+  src: url(../fonts/CircularStd-Bold.otf);
 }
 body {
   background-color: #05386B;
@@ -8,5 +8,5 @@ body {
 .intro {
   font-family: Circular;
   color: #5CDB95;
-  font-size: 10vh;
+  font-size: 5vh;
 }
