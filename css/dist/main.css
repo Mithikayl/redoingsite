@@ -6,7 +6,7 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/cabin/v18/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EL7E.ttf) format('truetype');
 }
-body .bg {
+body {
   background-color: #05386B;
 }
 h1 .intro {
