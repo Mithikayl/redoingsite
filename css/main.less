@@ -9,13 +9,50 @@
 @lighterGreen: #8EE4AF;
 @cream: #EDF5E1;
 
+* {
+    -webkit-font-smoothing: antialiased;    
+    scroll-behavior: smooth
+}
+
 body { 
     background-color: @darkestGreen;
 }
 
 .intro {
-        font-family: Circular;
-        color: @nicestGreen;
-        font-size: 5vh;
+    font-family: Circular;
+    color: @nicestGreen;
+    font-size: 5vh;
+    
 }
 
+.fullscreenDiv {
+    height: auto;
+    width: 100%;
+}
+
+.space {
+    position: absolute;
+    height: 50%;
+}
+
+.center {
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    -ms-flex-pack: center;
+    overflow: hidden;
+    height: 98vh;
+    max-height: 98vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+::selection {
+    color: @darkestGreen;
+    background-color: @lighterGreen;
+}
