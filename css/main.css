@@ -43,3 +43,19 @@ body {
   color: #05386B;
   background-color: #8EE4AF;
 }
+a.title {
+  text-decoration: none;
+  color: #5CDB95;
+}
+p.sevensec {
+  size: 10px;
+  animation: sevensec 7s 0s forwards ease-in-out;
+}
+@keyframes sevensec {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
