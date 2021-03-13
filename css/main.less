@@ -65,10 +65,24 @@ a.title {
 
 p.sevensec {
     size: 10px;
-    animation: sevensec 7s 0s forwards ease-in-out;
+    opacity: 0;
+    animation: insevensec 7s 3s forwards ease-in-out;
 }
 
-@keyframes sevensec {
+@keyframes insevensec {
     from{opacity: 0;}
-    to{opacity: 1;}
+    to{opacity: 0.17;}
 }
+
+a.titleunder {
+    background-image: linear-gradient(rgb(176, 251, 188), rgb(176, 251, 188)),
+      linear-gradient(@nicestGreen, @cream);
+    background-size: 100% 2px, 0 2px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s linear;
+  }
+  
+  a.titleunder:hover {
+    background-size: 0 2px, 100% 2px;
+  }

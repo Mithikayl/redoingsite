@@ -43,6 +43,33 @@ body {
   color: #05386B;
   background-color: #8EE4AF;
 }
+a.title {
+  text-decoration: none;
+  color: #5CDB95;
+}
+p.sevensec {
+  size: 10px;
+  opacity: 0;
+  animation: insevensec 7s 3s forwards ease-in-out;
+}
+@keyframes insevensec {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.17;
+  }
+}
+a.titleunder {
+  background-image: linear-gradient(#b0fbbc, #b0fbbc), linear-gradient(#5CDB95, #EDF5E1);
+  background-size: 100% 2px, 0 2px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s linear;
+}
+a.titleunder:hover {
+  background-size: 0 2px, 100% 2px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -76,7 +103,7 @@ body {
   width: 0;
   height: 0;
   color: #fff;
-  background-color: #191919;
+  background-color: #379683;
   animation: 1s grow ease forwards;
   text-align: center;
 }
@@ -107,7 +134,7 @@ body {
   width: 0px;
   left: 0;
   bottom: 10px;
-  background: #BF2E97;
+  background: #05386B;
   transition: all 0.5s ease;
 }
 .nav_list li:hover:before {
