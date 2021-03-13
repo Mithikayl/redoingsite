@@ -43,7 +43,7 @@ body {
   color: #05386B;
   background-color: #8EE4AF;
 }
-main.darkestGreen * {
+* {
   margin: 0;
   padding: 0;
 }
