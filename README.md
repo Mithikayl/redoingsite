@@ -5,7 +5,7 @@ my new website (19/02/2021)
 literally thats it
 
 # progress list
-1. get acquainted with less.css which is working 
+1. get acquainted with less.css which is working (done)
 2. get main css done
 3. get home page/template page done
 4. get subsections done
