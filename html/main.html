@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/nav.css">
     <meta name="description" content="a guy who enjoys coding and a good fanta.">
     <meta name="keywords" content="mith,developer,designer,ui,javascript,nodejs,html,css,mithikayl,mythicalgamer369">
     <meta name="robots" content="index, follow">
@@ -20,27 +21,14 @@
     <meta property="twitter:image" content="">        
 </head>
 <body class="bg" onload="typeWriter()">
-<div class="fullscreenDiv">
-  <div class="space"></div>
-  <div class="center">
-    <div class="intro">
-      <h1 id="demo""></h1>
-      
-      <script>
-      var i = 0;
-      var txt = "Mith's Website";
-      var speed = 200;
-      
-      function typeWriter() {
-        if (i < txt.length) {
-          document.getElementById("demo").innerHTML += txt.charAt(i);
-          i++;
-          setTimeout(typeWriter, speed);
-        }
-      }
-      </script>
+  <div class="fullscreenDiv">
+    <div class="space"></div>
+    <div class="center">
+      <div class="intro">
+        <h1 id="demo""></h1>
+        <script src="../js/typingeffectonload.js"></script>
+      </div>
     </div>
   </div>
-</div>
 </body>
 </html>
