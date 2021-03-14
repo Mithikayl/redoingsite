@@ -70,3 +70,15 @@ a.titleunder {
 a.titleunder:hover {
   background-size: 0 2px, 100% 2px;
 }
+p.captions {
+  opacity: 0;
+  animation: captionsfadein 3s 2s forwards ease-in-out;
+}
+@keyframes captionsfadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
