@@ -16,7 +16,7 @@ function typingMain() {
 var captions404 = ['No page here!', 'Where are we again?', "I can't find a page!", "Better luck next time."]
 const randomElement = captions404[Math.floor(Math.random() * captions404.length)];
 var txt404 = '404, ' + randomElement;
-var speed404 = 100;
+var speed404 = 1000;
 var o = 0;
 
 function typing404() {
@@ -26,5 +26,5 @@ function typing404() {
 			o++;
 			setTimeout(typing404, speed404);
 		}
-	}, 2700)
+	}, 0)
 }
