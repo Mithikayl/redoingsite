@@ -96,3 +96,27 @@ p.captions {
     from{opacity: 0}
     to{opacity: 1}
 }
+
+a.left
+{
+    position: relative;
+    text-decoration: none;
+    color: @lesserDarkGreen;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: @cream;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+  }

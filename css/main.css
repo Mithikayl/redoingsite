@@ -82,3 +82,23 @@ p.captions {
     opacity: 1;
   }
 }
+a.left {
+  position: relative;
+  text-decoration: none;
+  color: #379683;
+}
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #EDF5E1;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
