@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www.mithikayl.netlify.app/sitemap.xml
