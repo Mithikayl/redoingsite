@@ -97,8 +97,7 @@ p.captions {
     to{opacity: 1}
 }
 
-a.left
-{
+a.left {
     position: relative;
     text-decoration: none;
     color: @lesserDarkGreen;
@@ -119,4 +118,15 @@ a.left:before {
 a.left:hover:before {
     visibility: visible;
     width: 100%;
-  }
+}
+
+.footer {
+    background-color: #03284d;
+}
+
+.footertext {
+    display: inline;
+    opacity: 0;
+    animation: captionsfadein 3s 2s forwards ease-in-out;
+}
+  

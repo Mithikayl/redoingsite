@@ -15,3 +15,7 @@ var aboutPage = document.getElementById("about");
 if (typeof aboutPage != 'undefined' && aboutPage != null) {
   document.getElementById("about").innerHTML = randomAbout;
 } else {}
+
+var footer_quote = ['"Work, work and when you collapse, work harder."', '"Wake up and live your life before it passes over you."', '"People say the light is at the end of the tunnel - I say to light your own torch."', '"If all else fails, StackOverflow is the one and only saviour."'];
+var randomfooterquote = footer_quote[Math.floor(Math.random() * footer_quote.length)];
+document.getElementById("footerquote").innerHTML = randomfooterquote;

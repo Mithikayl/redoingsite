@@ -102,3 +102,11 @@ a.left:hover:before {
   visibility: visible;
   width: 100%;
 }
+.footer {
+  background-color: #03284d;
+}
+.footertext {
+  display: inline;
+  opacity: 0;
+  animation: captionsfadein 3s 2s forwards ease-in-out;
+}
