@@ -1,0 +1,26 @@
+{
+    "short_name": "Mith's Site",
+    "name": "Mithikayl's Website.",
+    "icons": [
+        {
+            "src": "/img/icon128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/img/icon192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/img/icon512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/html/home.html",
+    "background_color": "#05386B",
+    "display": "standalone",
+    "scope": "/app/",
+    "theme_color": "#5CDB95"
+}
