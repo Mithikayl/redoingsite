@@ -1,7 +1,7 @@
-var i = 0;
-var txt = "Mith's Website";
-var speed = 200;
-var isFinished = true;
+let i = 0;
+let txt = "Mith's Website";
+let speed = 200;
+let isFinished = true;
 
 function typingMain() {
   isFinished = false;
@@ -13,11 +13,11 @@ function typingMain() {
   isFinished = true;
 }
 
-var captions404 = ['No page here!', 'Where are we again?', "I can't find a page!", "Better luck next time."]
+let captions404 = ['No page here!', 'Where are we again?', "I can't find a page!", "Better luck next time."]
 const randomElement = captions404[Math.floor(Math.random() * captions404.length)];
-var txt404 = '404, ' + randomElement;
-var speed404 = 1000;
-var o = 0;
+let txt404 = '404, ' + randomElement;
+let speed404 = 1000;
+let o = 0;
 
 function typing404() {
 	setInterval(function() {
