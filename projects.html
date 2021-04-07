@@ -24,43 +24,55 @@
     <meta property="twitter:image" content="/img/thing.png">        
 </head>
 <body class="bg" onload="typingMain()">
-  <div class="fullscreenDiv">
-    <div class="center">
-      <div class="intro">
-        <h1>
-          <a href="#menu" id="mainheader" class="title titleunder"></a>
-        </h1>
-        <div class="bottomthing">
-          <p class="captions" style="font-size: 40px;">
-           This page will be updated soon.
-          </p>
+  <header></header>
+  <main>
+    <div class="fullscreenDiv">
+      <div class="center">
+        <div class="intro">
+          <h1>
+            <a href="#menu" id="mainheader" class="title titleunder"></a>
+          </h1>
+          <div class="bottomthing">
+            <p class="captions" style="font-size: 40px;">
+            This page will be updated soon.
+            </p>
+          </div>
+          <div class="popover" id="menu">
+            <div class = 'content'>
+            <a href="#" class="close"></a>
+              <div class = 'nav'>
+              <ul class = 'nav_list'>
+                <div class = 'nav_list_item'>
+                <li><a href="home.html">Home</a></li>
+                </div>
+                <div class = 'nav_list_item'>
+                  <li><a href="about.html">About</a></li>
+                </div>
+              <div class = 'nav_list_item'>
+                <li><a href="projects.html">Projects</a></li>
+                </div>
+                <div class = 'nav_list_item'>
+                  <li><a href="contact.html">Contact</a></li>
+                </div>
+              </ul>
+            </div>
+            </div>
+            </div>
+            </div>
+          <script src="/js/typingeffectonload.js"></script>
+          <script src="/js/captions.dev.js"></script>
         </div>
-        <div class="popover" id="menu">
-          <div class = 'content'>
-           <a href="#" class="close"></a>
-            <div class = 'nav'>
-             <ul class = 'nav_list'>
-               <div class = 'nav_list_item'>
-               <li><a href="home.html">Home</a></li>
-               </div>
-              <div class = 'nav_list_item'>
-                 <li><a href="about.html">About</a></li>
-               </div>
-             <div class = 'nav_list_item'>
-               <li><a href="projects.html">Projects</a></li>
-               </div>
-              <div class = 'nav_list_item'>
-                 <li><a href="contact.html">Contact</a></li>
-               </div>
-             </ul>
-           </div>
-          </div>
-          </div>
-          </div>
-        <script src="/js/typingeffectonload.js"></script>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer">
+      <div class="footertext">
+        <p style="display: inline;">&copy; 2021 Mithikayl</p>
+        <i><p id="footerquote" style="display: inline;"></p></i>
         <script src="/js/captions.dev.js"></script>
       </div>
     </div>
-  </div>
+  </footer>
 </body>
 </html>
