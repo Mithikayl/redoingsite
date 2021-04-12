@@ -1,30 +1,28 @@
-let i = 0;
-let txt = "Mith's Website";
-let speed = 200;
-let isFinished = true;
-
+"use strict";
+var i = 0;
+var txt = "Mith's Website";
+var speed = 200;
+var isFinished = true;
 function typingMain() {
-  isFinished = false;
-  if (i < txt.length) {
-	document.getElementById("mainheader").innerHTML += txt.charAt(i);
-	i++;
-	setTimeout(typingMain, speed);
-  }
-  isFinished = true;
+    isFinished = false;
+    if (i < txt.length) {
+        document.getElementById("mainheader").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typingMain, speed);
+    }
+    isFinished = true;
 }
-
-let captions404 = ['No page here!', 'Where are we again?', "I can't find a page!", "Better luck next time."]
-const randomElement = captions404[Math.floor(Math.random() * captions404.length)];
-let txt404 = '404, ' + randomElement;
-let speed404 = 1000;
-let o = 0;
-
+var captions404 = ['No page here!', 'Where are we again?', "I can't find a page!", "Better luck next time."];
+var randomElement = captions404[Math.floor(Math.random() * captions404.length)];
+var txt404 = '404, ' + randomElement;
+var speed404 = 1000;
+var o = 0;
 function typing404() {
-	setInterval(function() {
-		if (o < txt404.length) {
-			document.getElementById("404thing").innerHTML += txt404.charAt(o);
-			o++;
-			setTimeout(typing404, speed404);
-		}
-	}, 0)
+    setInterval(function () {
+        if (o < txt404.length) {
+            document.getElementById("404thing").innerHTML += txt404.charAt(o);
+            o++;
+            setTimeout(typing404, speed404);
+        }
+    }, 0);
 }
