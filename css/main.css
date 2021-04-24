@@ -110,3 +110,14 @@ a.left:hover:before {
   opacity: 0;
   animation: captionsfadein 3s 2s forwards ease-in-out;
 }
+.github-link {
+  color: inherit;
+  text-decoration: none;
+}
+.github-link :hover {
+  color: #5CDB95;
+}
+.github-link-caption {
+  text-decoration: underline;
+  display: inline;
+}
