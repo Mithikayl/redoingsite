@@ -2,8 +2,8 @@
 my new website (19/02/2021)
 
 # source code for my website
-literally thats it
-[Link](https://mithikayl.tk)
+literally thats it: 
+[here's the link](https://mithikayl.tk)
 
 # progress list
 1. get acquainted with less.css which is working (✓)
