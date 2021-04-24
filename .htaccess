@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^mithikayl.tk
+RewriteRule (.*) https://mithikayl.tk/$1 [R=301,L]
