@@ -2,15 +2,13 @@
 var i = 0;
 var txt = "Mith's Website";
 var speed = 200;
-var isFinished = true;
+// assign variables -> speed of typing effect, string to be typed and just i.
 function typingMain() {
-    isFinished = false;
     if (i < txt.length) {
         document.getElementById("mainheader").innerHTML += txt.charAt(i);
         i++;
         setTimeout(typingMain, speed);
     }
-    isFinished = true;
 }
 var captions404 = [
     "No page here!",
