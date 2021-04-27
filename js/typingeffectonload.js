@@ -12,9 +12,14 @@ function typingMain() {
     }
     isFinished = true;
 }
-var captions404 = ['No page here!', 'Where are we again?', "I can't find a page!", "Better luck next time."];
+var captions404 = [
+    "No page here!",
+    "Where are we again?",
+    "I can't find a page!",
+    "Better luck next time.",
+];
 var randomElement = captions404[Math.floor(Math.random() * captions404.length)];
-var txt404 = '404, ' + randomElement;
+var txt404 = "404, " + randomElement;
 var speed404 = 1000;
 var o = 0;
 function typing404() {

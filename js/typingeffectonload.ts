@@ -17,9 +17,14 @@ function typingMain() {
   isFinished = true;
 }
 
-let captions404 = ['No page here!', 'Where are we again?', "I can't find a page!", "Better luck next time."];
+let captions404 = [
+  "No page here!",
+  "Where are we again?",
+  "I can't find a page!",
+  "Better luck next time.",
+];
 let randomElement = captions404[Math.floor(Math.random() * captions404.length)];
-let txt404 = '404, ' + randomElement;
+let txt404 = "404, " + randomElement;
 let speed404 = 1000;
 let o = 0;
 
