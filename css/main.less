@@ -1,106 +1,113 @@
 @font-face {
-    font-family: Circular;
-    src: url(../fonts/CircularStd-Bold.otf);
+  font-family: Circular;
+  src: url(../fonts/CircularStd-Bold.otf);
 }
 
-@darkestGreen: #05386B;
+@darkestGreen: #05386b;
 @lesserDarkGreen: #379683;
-@nicestGreen: #5CDB95;
-@lighterGreen: #8EE4AF;
-@cream: #EDF5E1;
+@nicestGreen: #5cdb95;
+@lighterGreen: #8ee4af;
+@cream: #edf5e1;
 
 * {
-    -webkit-font-smoothing: antialiased;    
-    scroll-behavior: smooth
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
-body { 
-    background-color: @darkestGreen;
-    font-family: Circular;
+body {
+  background-color: @darkestGreen;
+  font-family: Circular;
 }
 
 .intro {
-    font-family: Circular;
-    color: @nicestGreen;
-    font-size: 5vh;
-    
+  font-family: Circular;
+  color: @nicestGreen;
+  font-size: 5vh;
 }
 
 .fullscreenDiv {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .space {
-    position: absolute;
-    height: 50%;
+  position: absolute;
+  height: 50%;
 }
 
 .center {
-    -webkit-box-pack: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    -ms-flex-pack: center;
-    overflow: hidden;
-    height: 98vh;
-    max-height: 98vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  -ms-flex-pack: center;
+  overflow: hidden;
+  height: 98vh;
+  max-height: 98vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 ::selection {
-    color: @darkestGreen;
-    background-color: @lighterGreen;
+  color: @darkestGreen;
+  background-color: @lighterGreen;
 }
 
 a.title {
-    text-decoration: none;
-    color: @nicestGreen;
+  text-decoration: none;
+  color: @nicestGreen;
 }
 
 p.sevensec {
-    size: 10px;
-    opacity: 0;
-    animation: insevensec 7s 3s forwards ease-in-out;
+  size: 10px;
+  opacity: 0;
+  animation: insevensec 7s 3s forwards ease-in-out;
 }
 
 @keyframes insevensec {
-    from{opacity: 0;}
-    to{opacity: 0.17;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.17;
+  }
 }
 
 a.titleunder {
-    background-image: linear-gradient(rgb(176, 251, 188), rgb(176, 251, 188)),
-      linear-gradient(@nicestGreen, @cream);
-    background-size: 100% 2px, 0 2px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 0.5s linear;
+  background-image: linear-gradient(rgb(176, 251, 188), rgb(176, 251, 188)),
+    linear-gradient(@nicestGreen, @cream);
+  background-size: 100% 2px, 0 2px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s linear;
 }
-  
-  a.titleunder:hover {
-    background-size: 0 2px, 100% 2px;
+
+a.titleunder:hover {
+  background-size: 0 2px, 100% 2px;
 }
 
 p.captions {
-    opacity: 0;
-    animation: captionsfadein 3s 2s forwards ease-in-out;
+  opacity: 0;
+  animation: captionsfadein 3s 2s forwards ease-in-out;
 }
-  
+
 @keyframes captionsfadein {
-    from{opacity: 0}
-    to{opacity: 1}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 a.left {
-    position: relative;
-    text-decoration: none;
-    color: @lesserDarkGreen;
+  position: relative;
+  text-decoration: none;
+  color: @lesserDarkGreen;
 }
 
 a.left:before {
@@ -116,31 +123,30 @@ a.left:before {
 }
 
 a.left:hover:before {
-    visibility: visible;
-    width: 100%;
+  visibility: visible;
+  width: 100%;
 }
 
 .footer {
-    background-color: #03284d;
+  background-color: #03284d;
 }
 
 .footertext {
-    display: inline;
-    opacity: 0;
-    animation: captionsfadein 3s 2s forwards ease-in-out;
+  display: inline;
+  opacity: 0;
+  animation: captionsfadein 3s 2s forwards ease-in-out;
 }
 
 .github-link {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 
-    :hover {
-        color: @nicestGreen
-    }
+  :hover {
+    color: @nicestGreen;
+  }
 }
 
 .github-link-caption {
-    text-decoration: underline; 
-    display: inline;
+  text-decoration: underline;
+  display: inline;
 }
-

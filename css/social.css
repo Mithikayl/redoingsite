@@ -7,12 +7,12 @@
   scroll-behavior: smooth;
 }
 body {
-  background-color: #05386B;
+  background-color: #05386b;
   font-family: Circular;
 }
 .intro {
   font-family: Circular;
-  color: #5CDB95;
+  color: #5cdb95;
   font-size: 5vh;
 }
 .fullscreenDiv {
@@ -40,12 +40,12 @@ body {
   align-items: center;
 }
 ::selection {
-  color: #05386B;
-  background-color: #8EE4AF;
+  color: #05386b;
+  background-color: #8ee4af;
 }
 a.title {
   text-decoration: none;
-  color: #5CDB95;
+  color: #5cdb95;
 }
 p.sevensec {
   size: 10px;
@@ -61,7 +61,8 @@ p.sevensec {
   }
 }
 a.titleunder {
-  background-image: linear-gradient(#b0fbbc, #b0fbbc), linear-gradient(#5CDB95, #EDF5E1);
+  background-image: linear-gradient(#b0fbbc, #b0fbbc),
+    linear-gradient(#5cdb95, #edf5e1);
   background-size: 100% 2px, 0 2px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -88,13 +89,13 @@ a.left {
   color: #379683;
 }
 a.left:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #EDF5E1;
+  background-color: #edf5e1;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }

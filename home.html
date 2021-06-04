@@ -1,78 +1,138 @@
 <!DOCTYPE html>
+<!-- HTML5 -->
 <html lang="en">
-<head>
+  <head>
     <title>mith's website</title>
-    <link rel="icon" href="/img/icon128.png" sizes="128x128">
-    <link rel="icon" href="/img/icon192.png" sizes="192x192">
-    <link rel="icon" href="/img/icon512.png" sizes="512x512">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/main.css">
-    <meta name="google-site-verification" content="4p-WOLTfiRMrTHazFW4oGObi2DE9F9aKsmHijpi75ns" />
-    <link rel="stylesheet" href="/css/nav.css">
-    <meta name="description" content="a guy who enjoys coding and a good fanta.">
-    <meta name="keywords" content="mith,developer,designer,ui,javascript,nodejs,html,css,mithikayl,mythicalgamer369">
-    <meta name="robots" content="index, follow">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mithikayl.netlify.app">
-    <meta property="og:title" content="mith's website">
-    <meta property="og:description" content="a guy who enjoys coding and a good fanta.">
-    <meta property="og:image" content="https://mithikayl.netlify.app/img/thing.png">
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://mithikayl.netlify.app">
-    <meta property="twitter:title" content="mith's website">
-    <meta property="twitter:description" content="a guy who enjoys coding and a good fanta.">
-    <meta property="twitter:image" content="https://mithikayl.netlify.app/img/thing.png">
-    <link rel="manifest" href="/manifest.json">     
-</head>
-<body class="bg" onload="typingMain()">
-  <header></header>
-  <main>
-  <div class="fullscreenDiv">
-    <div class="center">
-      <div class="intro">
-        <h1>
-          <a href="#menu" id="mainheader" class="title titleunder"></a>
-        </h1>
-        <div class="bottomthing">
-          <p class="sevensec">(click above)</p>
+    <link href="/img/icon128.png" rel="icon" sizes="128x128" />
+    <link href="/img/icon192.png" rel="icon" sizes="192x192" />
+    <link href="/img/icon512.png" rel="icon" sizes="512x512" />
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+      name="viewport"
+    />
+    <link href="/css/main.css" rel="stylesheet" />
+    <meta
+      content="4p-WOLTfiRMrTHazFW4oGObi2DE9F9aKsmHijpi75ns"
+      name="google-site-verification"
+    />
+    <link href="/css/nav.css" rel="stylesheet" />
+    <meta
+      content="a guy who enjoys coding and a good fanta."
+      name="description"
+    />
+    <meta
+      content="mith,developer,designer,ui,javascript,nodejs,html,css,mithikayl,mythicalgamer369"
+      name="keywords"
+    />
+    <meta content="index, follow" name="robots" />
+    <meta content="website" property="og:type" />
+    <meta content="https://mithikayl.netlify.app" property="og:url" />
+    <meta content="mith's website" property="og:title" />
+    <meta
+      content="a guy who enjoys coding and a good fanta."
+      property="og:description"
+    />
+    <meta
+      content="https://mithikayl.netlify.app/img/thing.png"
+      property="og:image"
+    />
+    <meta content="summary_large_image" property="twitter:card" />
+    <meta
+      content="https://mithikayl.netlify.app"
+      property="twitter:url"
+    />
+    <meta content="mith's website" property="twitter:title" />
+    <meta
+      content="a guy who enjoys coding and a good fanta."
+      property="twitter:description"
+    />
+    <meta
+      content="https://mithikayl.netlify.app/img/thing.png"
+      property="twitter:image"
+    />
+    <link href="/manifest.webmanifest" rel="manifest" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta
+      content="black"
+      name="apple-mobile-web-app-status-bar-style"
+    />
+  </head>
+  <body class="bg" onload="typingMain()">
+    <header></header>
+    <main>
+      <div class="fullscreenDiv">
+        <div class="center">
+          <div class="intro">
+            <h1>
+              <a
+                class="title titleunder"
+                href="#menu"
+                id="mainheader"
+              ></a>
+            </h1>
+            <div class="bottomthing">
+              <p class="sevensec">(click above)</p>
+            </div>
+            <div class="popover" id="menu">
+              <div class="content">
+                <a class="close" href="#"></a>
+                <div class="nav">
+                  <div class="nav_list" style="margin-left: 2em">
+                    <div class="nav_list_item">
+                      <ul>
+                        <li>
+                          <a href="home.html">Home</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="nav_list_item">
+                      <ul>
+                        <li>
+                          <a href="about.html">About</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="nav_list_item">
+                      <ul>
+                        <li>
+                          <a href="projects.html">Projects</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="nav_list_item">
+                      <ul>
+                        <li>
+                          <a href="contact.html">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script src="/js/typingeffectonload.js"></script>
         </div>
-        <div class="popover" id="menu">
-          <div class = 'content'>
-           <a href="#" class="close"></a>
-            <div class = 'nav'>
-             <ul class = 'nav_list'>
-               <div class = 'nav_list_item'>
-               <li><a href="home.html">Home</a></li>
-               </div>
-              <div class = 'nav_list_item'>
-                 <li><a href="about.html">About</a></li>
-               </div>
-             <div class = 'nav_list_item'>
-               <li><a href="projects.html">Projects</a></li>
-               </div>
-              <div class = 'nav_list_item'>
-                 <li><a href="contact.html">Contact</a></li>
-               </div>
-             </ul>
-           </div>
-          </div>
-          </div>
-          </div>
-        <script src="/js/typingeffectonload.js"></script>
       </div>
-    </div>
-  </div>
-</main>
-<footer class="footer">
-  <div class="footer">
-    <div class="footertext">
-      <p style="display: inline;">&copy; 2021 Mithikayl</p>
-      <i><p id="footerquote" style="display: inline;"></p></i>
-      <a href="https://github.com/Mithikayl/redoingsite" class="github-link">&thinsp; <div class="github-link-caption">Code for this website</div></a>
-      <script src="/js/captions.dev.js"></script>
-    </div>
-  </div>
-</footer>
-</body>
+    </main>
+    <footer class="footer">
+      <div class="footer">
+        <div class="footertext">
+          <p style="display: inline">&copy; 2021 Mithikayl</p>
+          <i></i>
+          <p id="footerquote" style="display: inline"><i></i></p>
+          <a
+            class="github-link"
+            href="https://github.com/Mithikayl/redoingsite"
+            >&thinsp;
+            <div class="github-link-caption">
+              Code for this website
+            </div></a
+          >
+          <script src="/js/captions.dev.js"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
